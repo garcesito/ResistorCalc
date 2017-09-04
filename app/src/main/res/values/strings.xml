@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ResistorCalc</string>
+    <string name="negro0">Negro</string>
+    <string name="negro1">Negro</string>
+    <string name="negro2">Negro</string>
+    <string name="marron0">Marron</string>
+    <string name="marron1">Marron</string>
+    <string name="marron2">Marron</string>
+    <string name="marron3">Marron</string>
+    <string name="rojo0">Rojo</string>
+    <string name="rojo1">Rojo</string>
+    <string name="rojo2">Rojo</string>
+    <string name="rojo3">Rojo</string>
+    <string name="naranja0">Naranja</string>
+    <string name="naranja1">Naranja</string>
+    <string name="naranja2">Naranja</string>
+    <string name="amarillo0">Amarillo</string>
+    <string name="amarillo1">Amarillo</string>
+    <string name="amarillo2">Amarillo</string>
+    <string name="verde0">Verde</string>
+    <string name="verde1">Verde</string>
+    <string name="verde2">Verde</string>
+    <string name="azul0">Azul</string>
+    <string name="azul1">Azul</string>
+    <string name="azul2">Azul</string>
+    <string name="purpura0">Purpura</string>
+    <string name="purpura1">Purpura</string>
+    <string name="purpura2">Purpura</string>
+    <string name="gris0">Gris</string>
+    <string name="gris1">Gris</string>
+    <string name="gris2">Gris</string>
+    <string name="blanco0">Blanco</string>
+    <string name="blanco1">Blanco</string>
+    <string name="blanco2">Blanco</string>
+    <string name="dorado3">Dorado</string>
+    <string name="plateado3">Plateado</string>
+</resources>
