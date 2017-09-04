@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String franja1="0",franja2="",franja3="",franja4="0";
+    private String franja1="0",franja2="",franja3=" ",franja4="0";
     private Button bRojo0,bRojo1,bRojo2,bRojo3;
     private Button bMarron0,bMarron1,bMarron2,bMarron3;
     private Button bNegro0,bNegro1,bNegro2;
@@ -77,22 +77,22 @@ public class MainActivity extends AppCompatActivity {
         bNegro0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                franja1="0";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                franja1="";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bNegro1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 franja2="0";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bNegro2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                franja3="";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                franja3=" ";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
 
@@ -101,28 +101,28 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 franja1="1";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bMarron1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 franja2="1";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bMarron2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                franja3="0";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                franja3="0 ";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bMarron3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 franja4="1";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
 
@@ -130,32 +130,185 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 franja1="2";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bRojo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 franja2="2";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bRojo2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                franja3="00";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                franja3="00 ";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
         bRojo3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 franja4="2";
-                tResultado.setText(franja1+franja2+franja3+" Ω ± "+franja4+"%");
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bDorado3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja4="5";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bPlateado3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja4="10";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
             }
         });
 
-
+        bNaranja0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja1="3";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bNaranja1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja2="3";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bNaranja2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja3=" K";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bAmarillo0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja1="4";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bAmarillo1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja2="4";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bAmarillo2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja3="0 K";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bVerde0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja1="5";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bVerde1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja2="5";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bVerde2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja3="00 K";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bAzul0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja1="6";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bAzul1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja2="6";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bAzul2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja3=" M";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bPurpura0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja1="7";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bPurpura1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja2="7";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bPurpura2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja3="00 m";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bGris0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja1="8";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bGris1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja2="8";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bGris2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja3="0 m";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bBlanco0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja1="9";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
+        bBlanco1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                franja2="9";
+                tResultado.setText(franja1+franja2+franja3+"Ω ± "+franja4+"%");
+            }
+        });
 
     }
 }
